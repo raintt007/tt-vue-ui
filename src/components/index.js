@@ -5,7 +5,10 @@ import Main from "../components/main/index";
 import Footer from "../components/footer/index";
 import Typography from "../components/typography/index";
 import Cropper from "../components/cropper/index";
-import Button from "../components/button/index"
+import Button from "../components/button/index";
+import Card from "../components/card/index";
+import Row from "../components/row/index";
+import Col from "../components/col/index";
 const components = [
   Container,
   Aside,
@@ -14,7 +17,10 @@ const components = [
   Footer,
   Typography,
   Cropper,
-  Button
+  Button,
+  Card,
+  Row,
+  Col
 ]
 const install = function(Vue) {
   components.forEach(component => {
@@ -23,12 +29,5 @@ const install = function(Vue) {
 }
 export default {
   install,
-  Container,
-  Aside,
-  Header,
-  Main,
-  Footer,
-  Typography,
-  Cropper,
-  Button
+  ...components
 }

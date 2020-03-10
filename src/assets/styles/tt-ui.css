@@ -47,6 +47,8 @@
   -ms-flex-negative: 0;
   flex-shrink: 0;
 }
+@import "./t-col.css";
+@import "./t-row.css";
 .cropper-wrapper {
   box-sizing: border-box;
   border: 2px dashed #c0c0c0;
