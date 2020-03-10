@@ -1,4 +1,4 @@
-# @raintt/tt-ui
+# tt-vue-ui
 
 ## setup
 ```
