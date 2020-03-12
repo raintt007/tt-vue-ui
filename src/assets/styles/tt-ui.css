@@ -49,6 +49,8 @@
 }
 @import "./t-col.css";
 @import "./t-row.css";
+@import "./t-button.css";
+@import "./t-card.css";
 .cropper-wrapper {
   box-sizing: border-box;
   border: 2px dashed #c0c0c0;
